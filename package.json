@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "advanced-types-1:exercise": "ts-node exercises/01-advanced-types/01-1.exercise.ts",
+    "advanced-types-1:solution": "ts-node exercises/01-advanced-types/01-1.solution.ts",
+    "advanced-types-2:exercise": "ts-node exercises/01-advanced-types/01-2.exercise.ts",
+    "advanced-types-2:solution": "ts-node exercises/01-advanced-types/01-2.solution.ts"
+  },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
 }
