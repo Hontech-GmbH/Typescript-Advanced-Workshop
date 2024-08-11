@@ -5,8 +5,7 @@
 * 02 - Utility Types
 * 03 - Never
 * 04 - Generics
-* 05 - String Literals
-* 06 - Templates Literals
-* 07 - Type Guards
-* 08 - Mapped Types
-* 09 - Branded Types
+* 05 - String & Template Literals
+* 06 - Type Guards
+* 07 - Mapped Types
+* 08 - Branded Types
