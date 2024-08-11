@@ -3,7 +3,7 @@
  * If nothing is specified create a set of type unknown
  */
 
-function createSet() {
+function createSet(): Set<any> {
     return new Set();
 }
 

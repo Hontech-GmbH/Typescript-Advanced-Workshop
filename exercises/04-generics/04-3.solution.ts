@@ -1,4 +1,4 @@
-function createSet<T = string>() {
+function createSet<T = string>(): Set<T> {
     return new Set<T>();
 }
 

@@ -1,11 +1,8 @@
-// Create a UnwrapArray type similar to the Awaited type
-type PromiseType = Awaited<Promise<Promise<Promise<string>>>>
+type Curry = () => () => () => () => () => number;
 
-type MyArrays = Array<Array<Array<Array<number>>>>;
+type NestedReturnType<T> = T extends (...args: any[]) => infer R ? NestedReturnType<R> : T;
 
-type UnwrapArray<T> = T extends Array<infer ArrayType> ? UnwrapArray<ArrayType> : T;
-
-// Should return type number;
-type UnwrappedArray = UnwrapArray<MyArrays>;
+// Should be type number
+type CurryReturnType = NestedReturnType<Curry>;
 
 export {}

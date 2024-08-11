@@ -2,7 +2,7 @@
  * Modify the createSet function so that the default generic is of type string
  */
 
-function createSet<T>() {
+function createSet<T>(): Set<T> {
     return new Set<T>();
 }
 
