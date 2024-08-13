@@ -6,6 +6,6 @@
 * 03 - Never
 * 04 - Generics
 * 05 - String & Template Literals
-* 06 - Type Guards
-* 07 - Mapped Types
+* 06 - Mapped Types
+* 07 - Type Guards
 * 08 - Branded Types
